@@ -1,0 +1,14 @@
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --logo-font: "Raleway", sans-serif;
+
+    --primary-white-color: #ffffff;
+    --primary-accent-color: #4D5AE5;
+    --secondary-accent-color: #404BBF;
+    --navy-color: #2E2F42;
+    --slate-color: #434455;
+    --light-slate-color: #8E8F99;
+    --cornflower-color: #E7E9FC;
+    --cloud-color: #F4F4FD;
+    --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

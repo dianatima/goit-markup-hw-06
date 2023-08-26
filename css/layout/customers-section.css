@@ -1,0 +1,166 @@
+@media screen and (max-width: 767px) {
+    .customers-section {
+        margin-bottom: 96px;
+    }
+
+    .customers-section-title {
+        color: var(--navy-color);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 72px;
+    }
+
+    .customers-section-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 72px;
+    }
+
+    .customers-section-item {
+        display: flex;
+        align-items: center;
+        width: calc((100% - 16px) / 2);
+        height: 88px;
+    }
+
+    .customers-section-icon-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        border: 1px solid var(--light-slate-color);
+        border-radius: 4px;
+        color: var(--light-slate-color);
+        transition: border-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
+    }
+
+    .customers-section-icon-link:hover,
+    .customers-section-icon-link:focus {
+        border-color: var(--secondary-accent-color);
+        color: var(--secondary-accent-color);
+    }
+
+    .customers-section-icon {
+        fill: currentColor;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+
+    .customers-section {
+        margin-bottom: 96px;
+    }
+
+    .customers-section-title {
+        color: var(--navy-color);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 72px;
+    }
+
+    .customers-section-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .customers-section-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 168px;
+        height: 88px;
+    }
+
+    .customers-section-icon-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        border: 1px solid var(--light-slate-color);
+        border-radius: 4px;
+        color: var(--light-slate-color);
+        transition: border-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
+    }
+
+    .customers-section-icon-link:hover,
+    .customers-section-icon-link:focus {
+        border-color: var(--secondary-accent-color);
+        color: var(--secondary-accent-color);
+    }
+
+    .customers-section-icon {
+        fill: currentColor;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+
+    .customers-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .customers-section-title {
+        color: var(--navy-color);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 72px;
+    }
+
+    .customers-section-list {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    .customers-section-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: calc((100% - 120px) / 6);
+        height: 88px;
+    }
+
+    .customers-section-icon-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        border: 1px solid var(--light-slate-color);
+        border-radius: 4px;
+        color: var(--light-slate-color);
+        transition: border-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
+    }
+
+    .customers-section-icon-link:hover,
+    .customers-section-icon-link:focus {
+        border-color: var(--secondary-accent-color);
+        color: var(--secondary-accent-color);
+    }
+
+    .customers-section-icon {
+        fill: currentColor;
+    }
+}
