@@ -133,7 +133,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        padding: 80px 19px 40px 24px;
+        padding: 80px 35px 40px 40px;
         background-color: var(--primary-white-color);
         transform: translateX(100%);
         transition: transform var(--transition-dur-and-func);
@@ -197,6 +197,10 @@
         color: var(--secondary-accent-color);
     }
 
+    .current-menu {
+        color: var(--secondary-accent-color);
+    }
+
     .mobile-menu-address-list {
         color: var(--slate-color);
         margin-bottom: 48px;
@@ -207,16 +211,14 @@
     }
 
     .mobile-menu-address-link {
-        font-size: 36px;
+        font-size: 24px;
         font-weight: 700;
         line-height: 1.1;
         letter-spacing: 0.72px;
+        font-style: normal;
+        color: var(--primary-accent-color);
         text-transform: capitalize;
         transition: color var(--transition-dur-and-func);
-    }
-
-    .mobile-menu-address-link:hover {
-        color: var(--primary-accent-color);
     }
 
     .email-menu-address-link {
@@ -234,7 +236,7 @@
 
     .mobile-menu-social-list {
         display: flex;
-        gap: 56px;
+        gap: 28px;
         flex-wrap: wrap;
     }
 
