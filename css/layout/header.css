@@ -137,6 +137,9 @@
         background-color: var(--primary-white-color);
         transform: translateX(100%);
         transition: transform var(--transition-dur-and-func);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .mobile-menu.is-open {
@@ -175,7 +178,7 @@
     }
 
     .mobile-menu-nav-list {
-        margin-bottom: 284px;
+        /* margin-bottom: 284px; */
     }
 
     .mobile-menu-nav-item:not(:last-child) {
@@ -269,6 +272,20 @@
 
 
 }
+
+
+
+@media screen and (max-width: 427px) {
+    .mobile-menu {
+        width: calc(100% - 30px);
+    }
+
+    .mobile-menu.is-open {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .mobile-menu {
