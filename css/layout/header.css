@@ -273,20 +273,6 @@
 
 }
 
-
-
-@media screen and (max-width: 427px) {
-    .mobile-menu {
-        width: calc(100% - 30px);
-    }
-
-    .mobile-menu.is-open {
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .mobile-menu {
         display: none;
